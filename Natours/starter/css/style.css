@@ -167,7 +167,7 @@ body {
 }
 
 .btn:hover::after {
-    transform: scale(1.5);
+    transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
 
