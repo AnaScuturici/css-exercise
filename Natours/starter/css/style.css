@@ -157,6 +157,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    /* positions the element behind another element (parent btn position=1) */
+    z-index: -1;
 }
 
 .btn-white::after {
