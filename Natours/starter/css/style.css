@@ -50,6 +50,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
@@ -57,6 +58,7 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden; 
+    padding: 50px;
 }
 
 .heading-primary-main {
