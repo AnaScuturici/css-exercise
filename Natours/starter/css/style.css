@@ -126,14 +126,18 @@ body {
     padding: 15px 40px;
     /* gives height and padding to inline elements */
     display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
 }
 
 .btn:hover {
     transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgb(0,0,0,.2);
 }
 
 .btn:active {
     transform: translate(-1px);
+    box-shadow: 0 5px 10px rgb(0,0,0,.2);
 }
 
 .btn-white {
