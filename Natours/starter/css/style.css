@@ -190,6 +190,7 @@ body {
 .btn-animated {
     /* properties: name, duration, timing function, delay */
     animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
 }
 
 
