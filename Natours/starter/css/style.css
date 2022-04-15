@@ -124,10 +124,6 @@ body {
         transform: translateY(30px);
     }
 
-    80% {
-        transform: translateX(-10px);
-    }
-
     100% {
         opacity: 1;
         transform: translate(0);
